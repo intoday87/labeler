@@ -1,0 +1,11 @@
+test-branch:
+  - branch: "test/**"
+
+feature-branch:
+  - branch: "*/feature/*"
+
+bug-branch:
+  - branch: "{bug,fix}/*"
+
+array-branch:
+  - branch: ["array/*"]
